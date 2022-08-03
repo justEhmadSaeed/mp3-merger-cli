@@ -1,3 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
-console.log('testing');
+// import program from './utils/cli.js';
+const program = require('./utils/cli');

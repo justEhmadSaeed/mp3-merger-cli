@@ -12,11 +12,20 @@
 	"bin": {
 		"merge-mp3": "index.js"
 	},
+	"files": [
+		"index.js",
+		"utils/*"
+	],
 	"keywords": [
 		"mp3 merger",
 		"merge mp3",
 		"mp3-merger",
 		"merge-mp3"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"commander": "^9.4.0",
+		"meow": "^10.1.3"
+	}
 }
