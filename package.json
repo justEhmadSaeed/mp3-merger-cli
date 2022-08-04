@@ -1,0 +1,31 @@
+{
+	"name": "mp3-merger-cli",
+	"version": "1.0.0",
+	"description": "A CLI that merges mp3 files into a sinlge file.",
+	"repository": "git@github.com:justEhmadSaeed/mp3-merger-cli.git",
+	"main": "index.js",
+	"author": {
+		"name": "Ehmad Saeed",
+		"email": "justehmadsaeed@gmail.com",
+		"url": "https://twitter.com/justEhmadSaeed"
+	},
+	"bin": {
+		"merge-mp3": "index.js"
+	},
+	"files": [
+		"index.js",
+		"utils/*"
+	],
+	"keywords": [
+		"mp3 merger",
+		"merge mp3",
+		"mp3-merger",
+		"merge-mp3"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"commander": "^9.4.0",
+		"meow": "^10.1.3"
+	}
+}
